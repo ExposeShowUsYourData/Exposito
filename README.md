@@ -1,6 +1,8 @@
+![Exposito Logo](Exposito Logo - GovHack 2019.png)
+
 # Exposito
 
-Exposito Logo - GovHack 2019.png
+
 
 Team memebers: Etienne Oosthuyesen, Jake Deed, Andrew Exley, Cameron Wells, Matt Nolis, Nghia Ngyuen, Rory Tarnow-Mordi, Justin Ward, Reagan Burpee, Daniel Lindsell, Shishir Sarfare 
 
