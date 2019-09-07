@@ -4,23 +4,22 @@ Exposito Logo - GovHack 2019.png
 
 # GovHack2018Expose
 
-Team memebers: Etienne Oosthuyesen, Jean-Noel Seneque, Jake Deed, Andrew Exley and Cameron Wells
+Team memebers: Etienne Oosthuyesen, Jake Deed, Andrew Exley, Cameron Wells, Matt Nolis, Nghia Ngyuen, Rory Tarnow-Mordi, Justin Ward, Reagan Burpee, Daniel Lindsell, Shishir Sarfare 
 
-Source Code url: https://github.com/ExposeShowUsYourData/GovHack2018Expose
+Source Code url: https://github.com/ExposeShowUsYourData/Exposito
 
-Video url: https://www.youtube.com/watch?v=AJ9HMdsiZI4
+Video url: 
 
-Homepage url: https://github.com/ExposeShowUsYourData/GovHack2018Expose
+Homepage url: https://github.com/ExposeShowUsYourData/Exposito
 
 ### Local Event Location:
 
 Adelaide
 ** Challenges: **
-- Local - Improving Response - Best entry that assists CFS planning for and responding to incidents
-- Local - Emergency Planning and Response - How can we better plan and respond to emergencies?
-- National - Bounty: Mix and Mashup - How can we combine the uncombinable?
-- National - Bounty: Decision Support - How can we make it easy to use weather and ocean data to our advantage? (e.g. when should you lay concrete, or go out yachtting or picnicking?)
-- National - Working Together - How can open government data to improve responsers' situational understanding and ability to plan their response, and share their information between agencies? How can sharing information between agencies be improved by different information presentation, allowing more informed decisions during domestic emergencies or national security events?
+- Local - 
+- Local - 
+- National - 
+- National -
 
 #### Data Collection and Identification:
 As a team we worked together to identify all the open licensed data sets, and Data Services we could freely use and re-purpose to meet the above challenges. Immediately we interpreted the challenges as needing mapping data sets; location based, as well as other real time data feeds. There's the data needed for preparation for those ready to confront whatever incident or emergency is occurring, there's the data needed to collect information about the incident, as well as peripheral data such as weather, rainfall\wind direction that is currently occurring. There's also the data to assist the services to reach the incident efficiently and safely, as well as those near the incidents to move away from danger as quickly and safely as possible. Once the relevant services are within proximiatey of the incident or emergency, they need continuous feeds of data to locate those injured or in danger, knowing where the exact front of the fire or emergency is, what risks are a factor, but also relying on constant communication to other emergency services, planes, applicances, volunteers and control centres. Basically, we wanted to find any data sets that may have been useful for any of these purposes.    
