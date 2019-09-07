@@ -1,6 +1,6 @@
 # Exposito
 
-![Expose:Show us your data logo](expose_Logo_Colour_transparent.png)
+![Expose:Show us your data logo](Exposito Logo - GovHack 2019.png)
 
 # GovHack2018Expose
 
