@@ -1,11 +1,14 @@
 # Exposito
-GovHack2018Expose
+
 Team memebers: Etienne Oosthuyesen, Jean-Noel Seneque, Jake Deed, Andrew Exley and Cameron Wells
-Source Code url: https://github.com/ExposeShowUsYourData/GovHack2018Expose
-Video url: https://www.youtube.com/watch?v=AJ9HMdsiZI4
-Homepage url: https://github.com/ExposeShowUsYourData/GovHack2018Expose
+
+Source Code url: 
+Video url: 
+Homepage url: 
 Local Event Location:
-Adelaide ** Challenges: **
+Adelaide 
+
+** Challenges: **
 Local - Improving Response - Best entry that assists CFS planning for and responding to incidents
 Local - Emergency Planning and Response - How can we better plan and respond to emergencies?
 National - Bounty: Mix and Mashup - How can we combine the uncombinable?
