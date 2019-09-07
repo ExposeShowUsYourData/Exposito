@@ -1,4 +1,4 @@
-![Exposito Logo](Exposito Logo - GovHack 2019.png)
+![Exposito Logo](ExpositoLogo-GovHack2019.png)
 
 # Exposito
 
