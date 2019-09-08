@@ -2,7 +2,7 @@
 
 # Exposito
 
-Team members & one guest: Etienne Oosthuyesen, Jake Deed, Andrew Exley, Cameron Wells, Matt Nolis, Nghia Ngyuen, Rory Tarnow-Mordi, Reagan Burpee, Daniel Lindsell, Shishir Sarfare and Justin Ward 
+Team members & guests: Etienne Oosthuyesen, Jake Deed, Andrew Exley, Cameron Wells, Matt Nolis, Nghia Ngyuen, Rory Tarnow-Mordi, Reagan Burpee, Daniel Lindsell, Shishir Sarfare and Justin Ward 
 
 Source Code url: https://github.com/ExposeShowUsYourData/Exposito
 
@@ -22,15 +22,15 @@ Adelaide
 - Local - Showcasing our regions
 - Local - Local Government Information Technology Association of South Australia
 
-## Who is NICI?
-National Investment and Commerce Initiative or NICI is a modern gateway to connect investors, migrants and tourists to opportunities and services provided by the federal, state, and local government agencies. NICI's AWS based intelligent platform employs mature services such as machine learning, deep learning, speech and language services; while leveraging open datasets from private and government agencies and research institutions. Her intelligent design means she can self-learn to continuously adapt to the changing data and environment to provide the best available information and analysis to individuals in a fast and secure manner. A 360-degree feedback loop ensures NICI is not only able to assist individuals, but also help improve bodies, such as local councils, learn through feedback and improve its products and services.
+## What is NICI?
+National Investment and Commerce Initiative or NICI is a modern gateway to connect investors, migrants and tourists to opportunities and services provided by the federal, state, and local government agencies. NICI's AWS based intelligent platform employs mature services such as machine learning, deep learning, speech and language services; while leveraging open datasets from private and government agencies and research institutions. NICI’s intelligent design means it can self-learn to continuously adapt to the changing data and environment to provide the best available information and analysis to individuals in a fast and secure manner. A 360-degree feedback loop ensures NICI is not only able to assist individuals, but also help improve bodies, such as local councils, learn through feedback and improve its products and services. 
 
 ## How can NICI help you?
-If you are an Investor, NICI can assist you by providing information on industry in regional and urban areas with potential development and growth opportunities. Depending on your needs, NICI delivers information on infrastructure, services, demographics, and environment for an area. She also understands government or business initiatives, providing up-to-date information on funding grants or available government incentives, and promotes new initiatives. NICI puts you in touch with local resources such as councils or businesses to assist your investment journey.
+If you are an Investor, NICI can assist you by providing information on industry in regional and urban areas with potential development and growth opportunities. Depending on your needs, NICI delivers information on infrastructure, services, demographics, and environment for an area. It also understands government or business initiatives, providing up-to-date information on funding grants or available government incentives, and promotes new initiatives. NICI puts you in touch with local resources such as councils or businesses to assist your investment journey.
  
-If you are a Worker looking for employment opportunities in regional Australia, NICI provides information on local industries, in-demand skills, demographics and liveability factors.  She understands amenities, sporting associations, art and culture, events, access to services are essential and connects you to local job boards and resources for additional information and assistance.  She actively learns your needs, to recommend information and services suited to your personal requirements.
+If you are a Worker looking for employment opportunities in regional Australia, NICI provides information on local industries, in-demand skills, demographics and liveability factors.  It understands amenities, sporting associations, art and culture, events, access to services are essential and connects you to local job boards and resources for additional information and assistance.  It actively learns your needs, to recommend information and services suited to your personal requirements.
 
-If you are a Local Council, NICI provides regional relocation recommendations to individuals, and investment opportunities to investors using a 360-degree feedback loop.  Understanding local infrastructure and services, the solution seeks to improve vocational and cultural diversity, enriching councils' ability to create prosperous regions.
+If you are a Local Council, NICI provides regional relocation recommendations to individuals, and investment opportunities to investors using a 360-degree feedback loop. Understanding local infrastructure and services, the solution seeks to improve vocational and cultural diversity, enriching councils' ability to create prosperous regions.
 
 ## How does NICI work?
 NICI's intelligent platform continuously evolves through interactions and analysis. A robust architecture based on modern technologies, open datasets and a powerful recommendation engine underpin NICI’s platform.
