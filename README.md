@@ -6,7 +6,7 @@ Team members & guests: Etienne Oosthuyesen, Jake Deed, Andrew Exley, Cameron Wel
 
 Source Code url: https://github.com/ExposeShowUsYourData/Exposito
 
-Video url: 
+Video url: https://youtu.be/dU1sMRCuFZc
 
 Homepage url: https://github.com/ExposeShowUsYourData/Exposito
 
