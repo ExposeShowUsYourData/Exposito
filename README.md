@@ -2,9 +2,7 @@
 
 # Exposito
 
-
-
-Team memebers: Etienne Oosthuyesen, Jake Deed, Andrew Exley, Cameron Wells, Matt Nolis, Nghia Ngyuen, Rory Tarnow-Mordi, Justin Ward, Reagan Burpee, Daniel Lindsell, Shishir Sarfare 
+Team members & one guest: Etienne Oosthuyesen, Jake Deed, Andrew Exley, Cameron Wells, Matt Nolis, Nghia Ngyuen, Rory Tarnow-Mordi, Reagan Burpee, Daniel Lindsell, Shishir Sarfare and Justin Ward 
 
 Source Code url: https://github.com/ExposeShowUsYourData/Exposito
 
@@ -12,71 +10,54 @@ Video url:
 
 Homepage url: https://github.com/ExposeShowUsYourData/Exposito
 
-### Local Event Location:
+## Local Event Location:
 
 Adelaide
-** Challenges: **
-- Local - Investing in regions
-- Local - Showcasing our regions
+
+## Challenges
 - National - Leveraging innovation precincts to drive economic prosperity
 - National - Training AI models to deliver better human outcomes
+- National - Australia’s Future Employment
+- Local - Investing in regions
+- Local - Showcasing our regions
+- Local - Local Government Information Technology Association of South Australia
 
-#### Data Collection story:
-NICI leverages several open datasets (public and private) providing information on economic, demographic, environmental and social factors to assist potential investors, migrants and tourists with decision making. These include datasets such as:
-• Stocktake of Australian Innovation Precincts to understand the potential opportunities for individuals and businesses in relation to viable relocation or investment options;
-• Labour Markets Data to explore employment projections, internet job advertisements, labour market data like employment, unemployment, occupation and industry composition;
-• ABS datasets such as Housing Affordability and Census data to understand social and demographic facts;
-• Environmental datasets such as Water and Weather data to provide environmental insights; and
-• Several other public and private data feeds such as LinkedIn, RP data, Traffic Volumes, to further enrich the information and services provided to the individual.
+## Who is NICI?
+National Investment and Commerce Initiative or NICI is a modern gateway to connect investors, migrants and tourists to opportunities and services provided by the federal, state, and local government agencies. NICI's AWS based intelligent platform employs mature services such as machine learning, deep learning, speech and language services; while leveraging open datasets from private and government agencies and research institutions. Her intelligent design means she can self-learn to continuously adapt to the changing data and environment to provide the best available information and analysis to individuals in a fast and secure manner. A 360-degree feedback loop ensures NICI is not only able to assist individuals, but also help improve bodies, such as local councils, learn through feedback and improve its products and services.
 
-#### Going further than that!
+## How can NICI help you?
+If you are an Investor, NICI can assist you by providing information on industry in regional and urban areas with potential development and growth opportunities. Depending on your needs, NICI delivers information on infrastructure, services, demographics, and environment for an area. She also understands government or business initiatives, providing up-to-date information on funding grants or available government incentives, and promotes new initiatives. NICI puts you in touch with local resources such as councils or businesses to assist your investment journey.
+ 
+If you are a Worker looking for employment opportunities in regional Australia, NICI provides information on local industries, in-demand skills, demographics and liveability factors.  She understands amenities, sporting associations, art and culture, events, access to services are essential and connects you to local job boards and resources for additional information and assistance.  She actively learns your needs, to recommend information and services suited to your personal requirements.
 
+If you are a Local Council, NICI provides regional relocation recommendations to individuals, and investment opportunities to investors using a 360-degree feedback loop.  Understanding local infrastructure and services, the solution seeks to improve vocational and cultural diversity, enriching councils' ability to create prosperous regions.
 
+## How does NICI work?
+NICI's intelligent platform continuously evolves through interactions and analysis. A robust architecture based on modern technologies, open datasets and a powerful recommendation engine underpin NICI’s platform.
 
+### NICI Data (described in detail on the NICI Project Page)
+NICI analyses several open datasets based on information required or relevant to the individual, leveraging economic, demographic, environmental and social data captured by federal, state and local government bodies. Underlying datasets are described on the project page.
 
-### Datasets Used:
+### NICI Architecture (described in detail in NICI Architecture and NICI Backend - Recommendation Engine documents)
+#### Overview
+NICI is the National Investment and Commerce Initiative, the modern gateway to connect investors, migrants and tourists to opportunities and services provided by federal, state and local government.  NICI is an AI platform hosted in the AWS ecosystem, it comprises of an application endpoint that can handle a variety of communication channels including text through chat windows and also voice.   The conversation then passes through to AWS Lex chatbot which is used to obtain more relevant information about the subject and whether they’re looking to invest, looking for work or are interested in tourism in certain areas.  The chat bot is hooked up to speech services such as AWS Translate and AWS Polly so it isn't limited to just English speaking backgrounds. After NICI has obtained enough information about the subject and they ask for a recommendation the data is passed through the AWS Sage Maker to be passed through Machine Learning.
 
-* PSMA Geocoded National Address File (G-NAF) - Department of Industry, Innovation and Science
-https://data.gov.au/dataset/19432f89-dc3a-4ef3-b943-5326ef1dbecc/gmd G-NAF is one of the most ubiquitous and powerful spatial datasets. It contains more than 13 million Australian physical address records. The records include geocodes. These are latitude and longitude map coordinates. G-NAF does not contain any names or personal information.
-Data is used for multipile locations of interest, from petrol stations, police stations through to schools and hospitals.  
+#### AI Platform 
+CloudFront Web Application
+    This is the communication endpoint for the user.  This encompasses all the application artifacts including UI interface, communication with the backend API’s, databases for storage and AI components
 
-* Contours - Geoscience Australia
-http://services.ga.gov.au/gis/rest/services/NM_Relief_and_Physiography/MapServer Esri ArcGIS MapSever URL. The web map service portrays detailed graphic representation of features that appear on the Earth's surface. These features include the relief and physiography themes from the Geoscience Australia 250K Topographic Data.
-Data is used to associate gradiant with landscape. This is important in predicting where water will flow next for large scale argicultural investments to be planned.
+Lex Chat Bot
+    This service provides a conversational interface into the application using voice and text through Natural Language Processing (NLU) and Automatic Speech Recognition (ASR).  This is the central point to the application which can call a host of other functions / API’s to enhance user experience	
 
+Speech Services
+    AWS Translation Services allows the user to communicate to our AI platform in a variety of languages, asking questions and it being understood by our Chat Bot engine and AI. Responses and information can then be translated back to the user in the native language.
+    AWS Polly can turn text into lifelike speech.  This is used to communicate verbally to the user if that is their chosen communication channel.
 
-* Recent Air Quality - Environment Protection Authority (EPA) - South Australia
-http://www.epa.sa.gov.au/air_quality/pi.txt RSS feed. TThe EPA’s recent air quality data is a RSS feed that includes hourly average pollutant concentrations for ozone (ppm), carbon monoxide (ppm), nitrogen dioxide (ppm), sulfur dioxide (ppm), particles (PM10) (μg/m3), fine particles (PM2.5) (μg/m3) and station index (station air quality index or AQI) for 13 EPA monitoring sites.
-Used for determining safe environments or potential grower opportunities.
-
-
-* Road Bridges and Fords - Geoscience Australia
-http://services.ga.gov.au/gis/rest/services/NM_Transport_Infrastructure/MapServer Esri ArcGIS MapSever URL. Road Bridge Point - A structure erected over a depression or obstacle to carry road traffic. Ford Point - A shallow or flat portion of the bed of a watercourse or lake where a crossing may be affected.
-
-
-* Roads - Department of Planning, Transport and Infrastructure - South Australia
-http://www.dptiapps.com.au/dataportal/Roads_shp.zip Roads - A structure erected over a depression or obstacle to carry road traffic. Ford Point - A shallow or flat portion of the bed of a watercourse or lake where a crossing may be affected.
-Transport
-
-* Mobile Black Spot Database - Department of Communications and the Arts
-https://data.gov.au/dataset/7be6e3ee-043a-4c47-a6eb-a97702419ccd/resource/c6b211ad-3aa2-4f53-8427-01b52a6433a7/download/mbsp-database-of-reported-locations-2016-electorates.csv - The Department of Communications and the Arts has received nominations of regional locations with poor or no mobile coverage from members of the public. The database was used by applicants to design their proposals for funding under round 1 of the Mobile Black Spot Programme and is again being used for round 2 of the programme.
-Cruicial information when communications is necessary. Can be used to bring in additional temporary infrastructure to handle communications for communities during an emergency if included as a data set.  
-
-* Water Supply Reserves - Geoscience Australia
-http://services.ga.gov.au/gis/rest/services/NM_Reserves/MapServer - Water Supply Reserve - Land reserved to protect water supply catchments.
-Water Supply Areas to protect from contamination or use to retard fire.
-
-* Statistical Area Level 1 (SA1) - ABS 
-http://www.abs.gov.au/ausstats/subscriber.nsf/log?openagent&1270055001_sa1_2011_aust_shape.zip&1270.0.55.001&Data%20Cubes&24A18E7B88E716BDCA257801000D0AF1&0&July%202011&23.12.2010&Latest
-Boundries of SA1 areas could be used in combination with incidents and statistical population to estimate people affected or likely to be affected by incident. 
-Used to identify higher risk areas for migrations 
-
-* Geocoded National Address Flat File (G-NAF) - GovHackDIIS
-https://data.gov.au/dataset/d4631917-14d7-4c49-830c-555ad63adf9d/resource/bb0be4d3-d77d-49ca-a27a-aa278ed0fc5e/download/gnaf_flat_201805.psv
-The Geocoded National Address File (G-NAF) dataset has been made available for GovHack 2018 as a single file for easier use. It consists of addresses in current use from PSMA’s May 2018 release and covers all of Australia with over 14 million addresses in total. The data is made available in a pipe separated (PSV) format consisting of all the main elements of an address, including the latitude and longitude for identifying the location of each address. More information about each of the fields is available from the G-NAF May 2018 product description. 
-
-
-* South Australian Schools, Preschools and Child Care sites with Longitude and Latitude - Department for Education - South Australia
-https://data.sa.gov.au/data/dataset/0e66c8ec-813e-41ad-9d3b-228880b2224b/resource/b0de764a-1ea7-4313-a114-c5cd26ba776f/download/data_sa_schoolspreschoolschildcarewithlatlong_august_2018.xlsx
-List of schools, preschools and child care sites
-Identify where schools are for potential families relocating.
+Sage Maker
+    Sage Maker is the Machine Learning product that hosts the NICI Recommendation Engine. The recommendation engine makes recommendations based on datasets previously acquired as well as the dialog acquired through the users interaction with the chat bot.  
+    The ML is built to give the best recommended action to prospective opportunity seekers, where “best” can change based on the requirements of NICI’s owner.
+     Data acquisition is handled in the ML side of the application
+     This is detailed more under the Machine Learning documentation.
+     
+ ##### NICI Recommendation Engine (Machine Learning) - NICI Backend document
+To give the best recommended action to prospective opportunity seekers, where “best” can change based on the requirements of NICI’s owner.
