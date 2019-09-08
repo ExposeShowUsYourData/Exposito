@@ -38,7 +38,7 @@ NICI's intelligent platform continuously evolves through interactions and analys
 ### NICI Data (described in detail on the NICI Project Page)
 NICI analyses several open datasets based on information required or relevant to the individual, leveraging economic, demographic, environmental and social data captured by federal, state and local government bodies. Underlying datasets are described on the project page.
 
-### NICI Architecture (described in detail in NICI Architecture and NICI Backend - Recommendation Engine documents)
+### NICI Architecture (described in detail in Govhack NICI Architecture and Govhack NICI Recommendation Engine documents)
 #### Overview
 NICI is the National Investment and Commerce Initiative, the modern gateway to connect investors, migrants and tourists to opportunities and services provided by federal, state and local government.  NICI is an AI platform hosted in the AWS ecosystem, it comprises of an application endpoint that can handle a variety of communication channels including text through chat windows and also voice.   The conversation then passes through to AWS Lex chatbot which is used to obtain more relevant information about the subject and whether they’re looking to invest, looking for work or are interested in tourism in certain areas.  The chat bot is hooked up to speech services such as AWS Translate and AWS Polly so it isn't limited to just English speaking backgrounds. After NICI has obtained enough information about the subject and they ask for a recommendation the data is passed through the AWS Sage Maker to be passed through Machine Learning.
 
